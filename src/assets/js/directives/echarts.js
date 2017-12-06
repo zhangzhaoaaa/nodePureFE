@@ -37,9 +37,9 @@ module.exports = {
 
 			_this.el.addEventListener('resize', _this.resizeEventHandler, false);
 
-			window.onresize = function () {
+			/*window.onresize = function () {
 				_this.el.dispatchEvent(resizeEvent);
-			};
+			};*/
 		});
 	},
 	update: function (val, oldVal) {

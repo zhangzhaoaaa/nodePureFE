@@ -20,7 +20,7 @@ export default {
 		filename: '[name].js'
 	},
 	module: {
-		preLoaders: [{
+		/*preLoaders: [{
 			test: /\.vue$/,
 			loader: 'eslint',
 			include: rootPath,
@@ -30,7 +30,7 @@ export default {
 			loader: 'eslint',
 			include: rootPath,
 			exclude: path.join(rootPath, 'node_modules/')
-		}],
+		}],*/
 		loaders: [{
 			test: /\.vue$/,
 			loader: 'vue'

@@ -123,12 +123,14 @@ export default {
 						this.id = res.taskRecord._id;
 						let flag = false;
 						let taskUrl = this.taskInfo.url.replace(/\./g, '-') + '/';
+						debugger;
+						console.log(res.result);
 						res.result.forEach(c => {
-							if (c.source === 'assets') {
+							// if (c.source === 'assets') {
 								flag = Object.keys(c.data).some(k => {
 									return taskUrl.indexOf(k) !== -1;
 								});
-							}
+							// }
 						});
 						if (flag) {
 							this.fetch.taskInfo = res.taskRecord;

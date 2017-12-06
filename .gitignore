@@ -14,3 +14,5 @@ npm-debug.log
 # custom
 dist/
 npm-debug*
+yarn.lock
+package-lock.json

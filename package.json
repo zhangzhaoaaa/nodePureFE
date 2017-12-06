@@ -15,11 +15,13 @@
   },
   "dependencies": {
     "babel-plugin-lodash": "^3.2.8",
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.6.3",
     "lodash": "^4.15.0",
     "moment": "^2.14.1",
     "nprogress": "^0.2.0",
+    "perf-cascade": "^2.2.1",
     "vue": "^1.0.25",
     "vue-pagination": "git+https://github.com/luoye-fe/vue-pagination.git",
     "vue-resource": "^0.9.1",
